@@ -1,6 +1,6 @@
 Feature: Hotel Booking
 
-  @HOTEL-1 @OPEN
+  @HOTEL-1 @MANUAL @OPEN
   Scenario: Create a booking in Hotel Booking
     Given a user wants to make a booking with the following details
       | Mark | Winters | 120 | true | 2018-01-01 | 2018-01-03 | Breakfast |
