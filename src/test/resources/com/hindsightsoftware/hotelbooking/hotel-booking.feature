@@ -16,6 +16,7 @@ Feature: Hotel Booking
   @HOTEL-2 @OPEN
   Scenario: Update a booking in Hotel Booking
     Given Hotel Booking has existing bookings
+    dddddd
     
 
   Scenario: Delete a booking in Hotel Booking
