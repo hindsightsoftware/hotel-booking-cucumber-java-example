@@ -27,6 +27,9 @@ Feature: Hotel Booking
   Scenario: Test
     Given some test on production
 
-  @ORPHAN
   Scenario: Testing a current 
     Given some
+
+  @HOTEL-2 @OPEN
+  Scenario: sssss
+    Given test
