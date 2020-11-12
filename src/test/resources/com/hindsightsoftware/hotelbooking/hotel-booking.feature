@@ -13,23 +13,8 @@ Feature: Hotel Booking
     When a specific booking is requested by the user
     Then the booking is shown
 
-  @HOTEL-2 @OPEN
-  Scenario: Update a booking in Hotel Booking
-    Given Hotel Booking has existing bookings
-    dddddd
-    
-
   Scenario: Delete a booking in Hotel Booking
     Given Hotel Booking has existing bookings
     When a specific booking is deleted by the user
     Then the booking is removed
 
-  Scenario: Test
-    Given some test on production
-
-  Scenario: Testing a current 
-    Given some
-
-  @HOTEL-2 @OPEN
-  Scenario: sssss
-    Given test
