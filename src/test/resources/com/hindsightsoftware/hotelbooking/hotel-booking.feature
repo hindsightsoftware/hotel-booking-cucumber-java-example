@@ -17,4 +17,3 @@ Feature: Hotel Booking
     Given Hotel Booking has existing bookings
     When a specific booking is deleted by the user
     Then the booking is removed
-    And another step
