@@ -39,6 +39,7 @@ jobs:
             -H "X-API-KEY: ${BEHAVE_PRO_API_KEY}" \
             -H "X-COMMIT-ID: ${CIRCLE_SHA1}" \
             --data-binary @./target/cucumber-reports/cucumber.json
+          when: always # Uploads cucumber results, pass or fail
 
 workflows:
   version: 2
