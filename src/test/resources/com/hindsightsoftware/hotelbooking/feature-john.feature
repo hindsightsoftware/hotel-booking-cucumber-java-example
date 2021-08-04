@@ -6,6 +6,5 @@ Feature: Feature John
     When blah blah
     Then xyz
     
-    Examples: 
+    Examples:
       | <col1> |
-    
