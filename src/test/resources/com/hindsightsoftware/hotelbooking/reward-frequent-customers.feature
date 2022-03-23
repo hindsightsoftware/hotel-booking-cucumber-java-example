@@ -1,6 +1,7 @@
 @loyalty
 Feature: Reward frequent customers
 
+  @HOTEL-13
   Scenario: Gold member checks in and a superior room is available
     Given a gold loyalty guest with a standard room reservation
     And there are superior rooms available for the length of their stay
