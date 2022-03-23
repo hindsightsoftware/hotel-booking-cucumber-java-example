@@ -1,7 +1,7 @@
 @loyalty
 Feature: Reward frequent customers
 
-  @HOTEL-13
+  @HOTEL-13 @MANUAL
   Scenario: Gold member checks in and a superior room is available
     Given a gold loyalty guest with a standard room reservation
     And there are superior rooms available for the length of their stay
@@ -19,7 +19,6 @@ Feature: Reward frequent customers
     Given A step
     
     Examples:
-      | room               | col 2 |
-      | this is really wide|       |
-      |                    |       |
-    
+      | room                | col 2 |
+      | this is really wide |       |
+      |                     |       |
