@@ -6,6 +6,5 @@ Feature: New feature
     And a another step
     
     Examples:
-      | membership level | result |
-      |  silver          |        |
-    
+      | membership level | result  |
+      | silver           |    pass |
