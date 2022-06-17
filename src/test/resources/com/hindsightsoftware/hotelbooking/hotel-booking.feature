@@ -13,4 +13,5 @@ Feature: Hotel Booking
     Given Hotel Booking has existing bookings
     When a specific booking is requested by the user
     Then the booking is shown
+    But not this
 
